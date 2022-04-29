@@ -1,27 +1,16 @@
 ## Oh... Hello and welcome ! 🤹🏼‍♂️
 
-<p align="right">
-    <a href="https://github.com/Teakt/Teakt/actions/workflows/root-me.yml" target="blank">
-        <img src="https://github.com/Teakt/Teakt/actions/workflows/root-me.yml/badge.svg"/>
-    </a>
-    <a href="https://github.com/Yulypso/Yulypso/actions/workflows/root-me.yml" target="blank">
-        <img src="https://github.com/Yulypso/Yulypso/actions/workflows/purgeCamo.yml/badge.svg"/>
-    </a>
-    <a href="https://github.com/Yulypso/Yulypso/actions/workflows/heroku-discord-bot.yml" target="blank">
-        <img src="https://github.com/Yulypso/Yulypso/actions/workflows/heroku-discord-bot.yml/badge.svg"/>
-    </a>
-</p>
     
 <p align="center" width="100%">
-    <img align="center" width="860" height="400" src="./pictures/yellow_trees.jpg"/>
+    <img align="center" width="860" height="400" src="./pictures/zelda_background.jpg"/>
 </p>
 
 <p align="center">
-    <a href="https://www.linkedin.com/in/tkhamphousone" target="blank">
-        <img src="https://img.shields.io/badge/-Thierry_Khamphousone-blue?style=plastic&logo=Linkedin&logoColor=white"/>
+    <a href="https://www.linkedin.com/in/teakguillaume" target="blank">
+        <img src="https://img.shields.io/badge/-Guillaume-Teak-blue?style=plastic&logo=Linkedin&logoColor=white"/>
     </a>
-    <a href="https://github.com/Yulypso" target="blank">
-        <img src="https://img.shields.io/github/followers/yulypso?label=follow&style=social"/>
+    <a href="https://github.com/Teakt" target="blank">
+        <img src="https://img.shields.io/github/followers/teakt?label=follow&style=social"/>
     </a>
 </p>
 
