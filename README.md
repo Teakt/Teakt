@@ -1,8 +1,8 @@
-## Welcome to my GitHub! 🐼☕ 0xcafe
+## Oh... Hello and welcome ! 🤹🏼‍♂️
 
 <p align="right">
-    <a href="https://github.com/Yulypso/Yulypso/actions/workflows/root-me.yml" target="blank">
-        <img src="https://github.com/Yulypso/Yulypso/actions/workflows/root-me.yml/badge.svg"/>
+    <a href="https://github.com/Teakt/Teakt/actions/workflows/root-me.yml" target="blank">
+        <img src="https://github.com/Teakt/Teakt/actions/workflows/root-me.yml/badge.svg"/>
     </a>
     <a href="https://github.com/Yulypso/Yulypso/actions/workflows/root-me.yml" target="blank">
         <img src="https://github.com/Yulypso/Yulypso/actions/workflows/purgeCamo.yml/badge.svg"/>
