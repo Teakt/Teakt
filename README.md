@@ -2,7 +2,7 @@
 
     
 <p align="center" width="100%">
-    <img align="center" width="860" height="400" src="./pictures/zelda_background.jpg"/>
+    <img align="center" width="860" height="400" src="./pictures/island_sky.jpg"/>
 </p>
 
 <p align="center">
