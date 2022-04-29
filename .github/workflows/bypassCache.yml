@@ -1,0 +1,45 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Bypass Github Cache (Updated)
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/1 * * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  github-cache-bypass:
+    name: Bypass github cache for updated
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate build number
+        id: buildnumber
+        uses: einaregilsson/build-number@v3 
+        with:
+          token: ${{secrets.github_token}}  
+      - name: update token
+        id: yulypso
+        run: |
+          YULYPSO=$(sed -e 's/${ID}/'"${{ steps.buildnumber.outputs.build_number }}"'/g' "templates/README.tpl.md")
+          YULYPSO="${YULYPSO//'%'/'%25'}"
+          YULYPSO="${YULYPSO//$'\n'/'%0A'}"
+          YULYPSO="${YULYPSO//$'\r'/'%0D'}"
+          echo "::set-output name=content::$YULYPSO"
+      - uses: DamianReeves/write-file-action@master
+        with:
+          path: README.md
+          contents: ${{ steps.yulypso.outputs.content }}
+          write-mode: overwrite
+      - name: Commit File
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Bypass GitHub caches"
+      - uses: ad-m/github-push-action@master
+        name: Push changes
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
